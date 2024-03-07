@@ -22,7 +22,7 @@ runMode=-1
 if [ -e ".worktrees" ]; then
   runMode=1
 # Check if .worktrees folder exists run in parent mode
-elif ls -a | grep -q "\.worktrees\$"; then
+elif pwd | grep -q .worktrees; then
   runMode=0
 fi
 
