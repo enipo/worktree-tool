@@ -21,4 +21,4 @@ install:     ## Install worktree
 
 uninstall:		## Uninstall worktree
 		@sudo rm /usr/local/bin/wo
-		echo "Uninstalled worktree"
+		@echo "Uninstalled worktree"
