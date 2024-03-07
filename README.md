@@ -9,7 +9,7 @@ Remove Worktree: Easily remove obsolete worktrees that are no longer needed by s
 List Worktrees: View a list of local worktrees and switch to them.
 
 Installation
-To use Git Worktree Manager, follow these simple steps:
+To use worktree, follow these simple steps:
 
 Clone the repository:
 
@@ -28,7 +28,7 @@ Install the script
 make install
 ```
 
-Uninstall the script
+Or uninstall the script (don't do both or you'll end up with nothing)
 ```bash
 make uninstall
 ```
