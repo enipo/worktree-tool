@@ -4,9 +4,9 @@ Overview
 Worktree is a convenient and user-friendly wrapper around git worktree. It simplifies the process of managing git worktrees by providing easy-to-use commands to select, create, remove, and list local worktrees. Additionally, it streamlines the process of navigating between branches associated with these worktrees.
 
 Features
-Create Worktree: Quickly create new worktrees for different branches, you can search through remote branches.
-Remove Worktree: Easily remove obsolete worktrees that are no longer needed by selecting them from a list or by typing in the name.
-List Worktrees: View a list of local worktrees and switch to them.
+Create worktree: Quickly create new worktrees for different branches, you can search through remote branches.
+Remove worktree: Easily remove obsolete worktrees that are no longer needed by selecting them from a list or by typing in the name.
+List worktrees: View a list of local worktrees and switch to them.
 
 Installation
 To use worktree, follow these simple steps:
@@ -34,7 +34,7 @@ make uninstall
 ```
 
 Usage
-Git Worktree Manager provides the following commands:
+Worktree provides the following commands:
 
 create: Create a new worktree for the specified branch.
 select: Select an existing worktree and switch to its associated branch.
